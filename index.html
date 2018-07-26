@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/searchBar.css">
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+
+  <title>How many HTML tag can you write?</title>
+</head>
+<body>
+  <p>How many HTML tag can you write?</p>
+
+  <div class="js-notificationRow"></div>
+
+  <div class="wrap">
+     <div class="search">
+        <input type="text" class="searchTerm js-inputAskForSearch" placeholder="Type your HTML Tag">
+        <button type="submit" class="searchButton js-inputAskForSearchButton">
+          <i class="fa fa-search"></i>
+       </button>
+     </div>
+  </div>
+  
+  <div class="js-displayGoodResults displayGoodResults"></div>
+  <div class="js-goodResultCpt goodResultCpt"></div>
+
+
+  <script src="build/main.bundle.js"></script>
+</body>
+</html>
