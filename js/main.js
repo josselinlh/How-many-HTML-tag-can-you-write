@@ -21,12 +21,10 @@ fetch(urlJson)
   function displayObjFromJson(json)
   {
     myJson = json;
-    console.log(myJson);
   };
 
   function addEventOnSearch()
   {
-    console.log(isAnHTMLTag("p"));
 
     let but = document.querySelector(buttonDom);
     let input = document.querySelector(inputDom);
@@ -51,7 +49,6 @@ fetch(urlJson)
 
     if(isAnHTMLTag(value))
     {
-      console.log("success");
 
         if(founds.indexOf(value) > -1)
         {
@@ -64,14 +61,11 @@ fetch(urlJson)
     }
     else
     {
-      console.log("fail");
       handleFailure(value);
     }
 
   }
 
-
-  // document.querySelector(".js-inputAskForSearch").addEventListener('keypress', function(){console.log("jfgnfjk")})
 
 
   function isAnHTMLTag(str)
