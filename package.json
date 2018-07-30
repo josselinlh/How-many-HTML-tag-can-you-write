@@ -6,15 +6,11 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
-    "http-server": "^0.11.1",
-    "sweetalert": "^2.1.0"
+    "http-server": "^0.11.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
     "babel-loader": "^7.1.5",
-    "css-loader": "^1.0.0",
-    "sass-loader": "^7.0.3",
-    "style-loader": "^0.21.0",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0"
   },
@@ -25,5 +21,13 @@
   },
   "author": "Lhopitallier Josselin",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josselinlh/How-many-HTML-tag-can-you-write.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josselinlh/How-many-HTML-tag-can-you-write/issues"
+  },
+  "homepage": "https://github.com/josselinlh/How-many-HTML-tag-can-you-write#readme",
   "description": ""
 }
